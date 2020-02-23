@@ -1,0 +1,9 @@
+version: '2'
+services:
+  CentOS:
+    image: centos:latest
+    volumes:
+      - "./home:/home"
+    command: bash -c "yum update -y && yum install -y vim python3 && bash"
+    container_name: CentOS-8
+    tty: true
