@@ -8,10 +8,10 @@
 
     # EXAMPLE:
     1. From your Mac or Linux terminal goto folder [ top_to_csv_parser ], (e.g. using command
-        [ cd path/to/top_to_csv_parser ])
+        [ *cd path/to/top_to_csv_parser* ])
     2. Execute docker-compose command below to deploy latest CentOS-8 image on your system (just to see the result of the script)
        In addition docker-compose.yml file will automatically update our CentOS-8 image and install vim and python3.
-        [ docker-compose up -d ]
+        [ **docker-compose up -d** ]
     3. Open a new terminal tab and execute next command, to 'jump' into the containers tty.
        To quit from containers tty (later) - type [ exit ] command and hit enter.
         [ docker container exec -it CentOS-8 /bin/bash ]
