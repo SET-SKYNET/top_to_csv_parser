@@ -20,7 +20,7 @@ import subprocess
 # Variables
 save_to_file = "top_log.csv"   # Parse data to this file
 snapshot_duration = 1          # E.g. Take data snapshot 'n' times every 1 second
-max_iterations = 10           # Specify maximum iteration loops to be done, before the end   <-   To avoid an endless cycle
+max_iterations = 10            # Specify maximum iteration loops to be done, before the end   <-   To avoid an endless cycle
 
 # If old file [ top_log.csv ] exist - remove it
 os.system(f"[ -e {save_to_file} ] && rm {save_to_file}")
