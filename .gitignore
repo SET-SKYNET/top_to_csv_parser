@@ -3,4 +3,4 @@
 ##
 
 # User-specific files
-.DS_store
+*.DS_store
