@@ -140,7 +140,7 @@ if __name__ == "__main__":
             iter_symbol += '.'
             iter_result = f"  Passed [ {len(iter_symbol)} of {max_iterations} ] iterations, every [ {snapshot_duration} ] seconds {iter_symbol}"
             append_column_to_csv(save_to_file, data)
-            print(f"{iter_result}\r", end = "")
+            print(f"\r{iter_result}", end = "")
             time.sleep(snapshot_duration)
         else:
             print(f"{iter_result}\n")
