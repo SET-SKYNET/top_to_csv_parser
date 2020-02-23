@@ -35,4 +35,4 @@ After testing script:
 
     ### P.S. ENJOY! =)
 
-![GitHub Logo](https://github.com/SET-SKYNET/top_to_csv_parser/example_cmd_in_terminal.png)
+![Terminal commands example](example_cmd_in_terminal.png)
