@@ -35,4 +35,4 @@ After testing script:
 
     ### P.S. ENJOY! =)
 
-![Terminal commands example]("./example cmd_in_terminal.png")
+![GitHub Logo](/example cmd_in_terminal.png)
