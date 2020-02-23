@@ -1,6 +1,5 @@
-
 ## INSTRUCTION HOW TO USE [ top_to_csv_parser.py ] SCRIPT:
-
+ 
 ### PRECONDITIONS:
 1. Install docker-compose (according to your operating system, use GOOGLE if required)
 
@@ -27,13 +26,15 @@
     ###### [ ./top_to_csv_parser.py ]
 1. All script settings are made solely in the script itself.
 
-### POST CONDITIONS:
-After testing script:
+### POST CONDITIONS (after testing script):
 1. Type [ exit ] to quit from containers tty;
 1. Stop CentOS-8 container with [ docker-compose down ] command.
 1. You may check, that container is stopped correctly, with [ docker container ps ] command
 
     ### P.S. ENJOY! =)
 
+Terminal commands example
 ![Terminal commands example](example_cmd_in_terminal.png)
+
+csv log file example
 ![csv log file example](example_top_log.csv.png)
