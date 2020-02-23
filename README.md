@@ -36,3 +36,4 @@ After testing script:
     ### P.S. ENJOY! =)
 
 ![Terminal commands example](example_cmd_in_terminal.png)
+![csv log file example](example_top_log.csv.png)
